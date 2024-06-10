@@ -71,7 +71,6 @@ class WelcomeFragment : Fragment() {
     private fun setButtonClickListener() {
         binding.startButton.setOnClickListener {
             viewModel.fetchSimultaneousRequest()
-//            findNavController().navigate(R.id.action_mainFragment_to_listFragment)
         }
     }
 

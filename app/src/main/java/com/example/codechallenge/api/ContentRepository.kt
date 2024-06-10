@@ -11,5 +11,5 @@ interface ContentRepository {
     fun clearData(key: String)
 
     fun hasData(key: String): Boolean
-//    suspend fun
+
 }
